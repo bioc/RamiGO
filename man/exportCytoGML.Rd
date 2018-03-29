@@ -32,9 +32,9 @@ dd <- getAmigoTree(goIDs=goIDs,color=color,
 tt <- readAmigoDot(object=dd)
 
 ## exportCytoGML is called inside adjM2gml
-adjM2gml(adjMatrix(tt),relations(tt)$color,
-  annot(tt)$fillcolor,annot(tt)$GO_ID,
-  annot(tt)$description,"example")
+#adjM2gml(adjMatrix(tt),relations(tt)$color,
+#  annot(tt)$fillcolor,annot(tt)$GO_ID,
+#  annot(tt)$description,"example")
 }
 \keyword{ igraph }
 \keyword{ graph }

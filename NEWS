@@ -1,4 +1,6 @@
 # R Package RamiGO - NEWS
+RamiGO 1.26.0:
+- Removed RCytoscape code and dependencies since RCytoscape is deprecated.
 
 RamiGO 1.9.5
 - RamiGO is now using AmiGO v2 Visualize as the default web server.
